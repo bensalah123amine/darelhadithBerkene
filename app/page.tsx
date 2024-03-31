@@ -5,9 +5,9 @@ import PrayerTiming from './componants/PrayerTiming/PrayerTiming';
 
 function App() {
   return (
-    <div className="  w-full h-screen  ">
+    <div className="  w-screen h-screen  ">
      
-    <div className=''>
+    <div className='w-screen'>
 
  
      <Slider/>
