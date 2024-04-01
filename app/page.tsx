@@ -1,4 +1,3 @@
-import Slider from '@/components/Slider';
 import React from 'react';
 import PrayerTiming from './componants/PrayerTiming/PrayerTiming';
 
