@@ -1,0 +1,25 @@
+{
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/node"
+      }
+    ],
+    "version": 2,
+    "functions": {
+      "api/*": {
+        "memory": 512,
+        "maxDuration": 10
+      }
+    },
+    "env": {
+      "VERCEL": "true" 
+    },
+    "build": {
+      "env": {
+        "DATABASE_URL": "@prisma/database-url"
+      },
+      "postinstall": "prisma generate"
+    }
+  }
+  
