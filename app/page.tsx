@@ -1,5 +1,6 @@
 import React from 'react';
 import PrayerTiming from './componants/PrayerTiming/PrayerTiming';
+import Image from 'next/image';
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
      <h1 className='   font-bold   shadow-l text-2xl absolute top-10 -right-20  w-full -translate-x-2/4 z-10  text-green-600'>موقع دار الحديث</h1>
      <h3 className=' absolute top-20  font-bold -right-40  text-xl w-full -translate-x-2/4 z-10 text-blue-500'>بمدينة  بركان بالمملكة المغربية حرسها الله</h3>
      </div>
-      <img src = "https://images2.alphacoders.com/538/538101.jpg" className='w-full  h-96' />
+      <Image width={100} height={100} alt='imge' src = "https://images2.alphacoders.com/538/538101.jpg" className='w-full  h-96' />
     </div>
      <PrayerTiming/>
      

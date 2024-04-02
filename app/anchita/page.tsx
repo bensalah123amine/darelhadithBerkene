@@ -31,9 +31,11 @@ const Anchita = () => {
         <h1 className='text-bgTitle'>{item.title}</h1>
         <p>{item.description}</p>
         <div className='h-auto'> 
-          <img
+          <Image
             src={item.url}
-            className=' h-96' 
+            width={400}
+            height={200}
+            className=' h-96 w-96' 
             alt="Picture of the author"
           />
         </div>

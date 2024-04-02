@@ -1,5 +1,5 @@
 "use server"
-import { BackgroundGradientAnimation } from "../componants/GradientEffect";
+import Image from 'next/image';
 import Link from 'next/link';
 
 
@@ -29,7 +29,7 @@ const dorouss = (props: Props) => {
       
    {books.map((item)=>
    <div key={item.id} className="  w-46 h-72">
-    <Link   href={item.href}  > <img className="h-full rounded-xl w-full   mt-8  hover:scale-110 " src={item.link} alt={item.name} /> </Link>
+    <Link   href={item.href}  > <Image width={100} height={100} className="h-full rounded-xl w-full   mt-8  hover:scale-110 " src={item.link} alt={item.name} /> </Link>
    </div>
    )}
 
