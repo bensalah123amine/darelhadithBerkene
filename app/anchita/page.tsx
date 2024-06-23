@@ -39,7 +39,7 @@ const Anchita = () => {
             alt="Picture of the author"
           />
         </div>
-        سلام عليكم
+       m سلام عليكم
       </div>
     )}
   </div>
