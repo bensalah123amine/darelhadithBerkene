@@ -18,8 +18,7 @@
     "build": {
       "env": {
         "DATABASE_URL": "@prisma/database-url"
-      },
-      "postinstall": "prisma generate"
+      }
     },
     "buildCommand": "next build",
     "crons": [
